@@ -1,0 +1,271 @@
+body{
+  background-color: rgb(224, 227, 227);
+  width:auto;
+}
+.topnav{
+    overflow:hidden; 
+    background-color: #03123f; 
+}
+.topnav a {
+    float:right;
+    color:white;
+    text-align: center;
+    padding:30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  @media only screen and (max-width:600px) {
+    .topnav a {
+      font-size: 13px;
+      padding:15px;
+    }
+    .topnav a:hover{
+      color: #e3e31a;
+      font-size: 10px;
+    }
+    .contp{
+      width:100px;
+      font-size:10px;
+    } 
+    .content{
+      height:50%;
+      width: 50%;
+      position: relative;
+      left: 1%;
+    }
+    .cont{
+
+      font-size:1em;
+      text-align: center;
+      position: relative;
+      left:12%;
+      margin-top:10%;
+    
+    }
+    .content2{
+      font-size:20px;
+    }
+    .content1{
+      font-size:10px;  
+      clear: both;
+    
+    }
+    
+  }
+  .topnav a:hover{
+    color: #e3e31a;
+    font-size: 25px;
+  }
+  #home{
+    height:100%;
+    width:100%;
+    width:100%;
+    background-color: #cbced6c5;
+  }
+  .img{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    margin-top:15%;
+    
+  }
+  .content{
+    height:50%;
+    width: 50%;
+  }
+  .img1{
+    height: 50%;
+    width:50%;
+    position: relative;
+    left:40%;
+    
+  }
+  .cont{
+    font-size:4em;
+    text-align: center;
+    position: relative;
+    left:54%;
+    margin-top:10%;
+  
+  }
+.contp{
+  width:400px;
+  font-size:15px;
+  position: relative;
+  margin-left:75%;
+}
+#about{
+  height:100%;
+  width:100%;
+}
+.dp{
+  font-size: 60px;
+  position: relative;
+  margin-top:20%;
+  margin-left:100px;
+
+}
+.block{
+  width:100%;
+  height:100%;
+}
+.i11{
+  height:80%;
+  width: 40%;
+  position: relative;
+  left: 10%;
+  margin-top:5%;
+}
+.i21{
+ height:80%; 
+  width:40%;
+  position:relative;
+  left: 185px;
+  margin-top:-250px;
+  
+}
+
+#project{
+  height:100px;
+  width:100px;
+}
+.content2{
+  width:60px;
+  height:250px;
+  font-size: 100px;
+  font-weight: bold;
+  position: relative;
+  margin-left:240px;
+  top:40px;
+  float: left;
+  
+}
+
+.proj3{
+  font-size:20px;
+  font-family: monospace;
+  position:absolute;
+  margin-top: 5%;
+  color: white;
+  background-color: rgb(232, 158, 21);
+  padding:5px;
+
+}
+.content1{
+  width:600px;
+  height:250px;
+  position: relative;
+  margin-left: 650px;
+  top: 190px;
+  font-size:20px;  
+
+}
+hr {
+  width: 1000px;
+  height:5px;
+  background-color: black;
+  position: relative;
+  margin-left:200px;
+  margin-top: 435px;
+}
+#designs{
+  width: 100px;
+  height: 100px;
+}
+.t1{
+  width:800px;
+  height: 200px;
+  font-size:50px;
+  position: relative;
+  margin-top:40px;
+  margin-left: 430px;
+}
+.arrow{
+  height: 100px;
+  width:50px;
+  position:relative;
+  left:670px;
+  margin-top: 30px;
+}
+.t2{
+  width: 500px;
+  font-size:35px;
+  font-weight: bold;
+  position:relative;
+  left:570px;
+  margin-top:30px;
+}
+.row{
+  display:flex;
+  width:100px;
+  height: 100px;
+  position:relative;
+  margin-top: 200px;
+}
+.row1{
+  display:flex;
+  width:100px;
+  height: 100px;
+  position:relative;
+  margin-top:370px;
+}
+.column{
+  flex: 33.3%;
+  width: 420px;
+  height: 400px;
+  padding: 5px;
+  margin-left: 20px;
+}
+#skills{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: 1620px;
+}
+.skill{
+  position: relative;
+  margin-top: 30px;
+}
+.s1{
+  font-size: 80px;
+  font-weight: bolder;
+  text-align: center;
+}
+#contact{
+  height:100%;
+  width:100%;
+  margin-top: 150px;
+}
+.c{
+  margin-top: 10px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+.icon1{
+   color: #f5773d;
+   font-size: 60px;
+ }
+ .icon2{
+  color: #f5773d;
+  font-size: 100px;
+}
+
+ .c1{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+ }
+ .c2{
+  display:inline-block;
+  padding-right: 100px;
+  padding-left: 100px;
+ }
+ .c3{
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left:12px;
+  color: #f5773d;
+
+ }
